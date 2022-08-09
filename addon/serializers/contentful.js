@@ -1,4 +1,6 @@
 import JSONSerializer from '@ember-data/serializer/json';
+import { get } from '@ember/object';
+import { isNone, typeOf } from '@ember/utils';
 
 export default class ContentfulSerializer extends JSONSerializer {
   extractAttributes(modelClass, fieldsHash, objHash) {

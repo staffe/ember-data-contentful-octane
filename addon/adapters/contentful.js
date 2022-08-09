@@ -1,4 +1,6 @@
 import RESTAdapter from '@ember-data/adapter/rest';
+import config from 'ember-get-config';
+import fetch from 'fetch';
 
 export default class ContentfulAdapter extends RESTAdapter {
   /**
