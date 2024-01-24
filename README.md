@@ -7,9 +7,18 @@
 
 This is an Ember Data adapter/serializer that uses the **READ ONLY** Content Delivery API from [contentful](http://contentful.com)
 
-## Setup in your app
-```sh
-ember install ember-data-contentful
+
+## Compatibility
+
+* Ember.js v4.8 or above
+* Ember CLI v4.8 or above
+* Node.js v18 or above
+
+
+## Installation
+
+```
+ember install ember-data-contentful-octane
 ```
 
 After installing the addon, configure your Contentful Space ID and Access Token inside `ENV` in `config/environment.js`:
